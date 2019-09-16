@@ -12,7 +12,7 @@ def process_log(path):
     for _ in range(aggregate_time):
         for proc in psutil.process_iter():
             try:
-                pinfo = proc.as_dict(attrs=['pid', 'name', 'username', 'cpu_percent', 'exe'])
+                pinfo = proc.as_dict(attrs=['pid', 'name', 'cpu_percent', 'exe', 'cmdline'])
             except psutil.NoSuchProcess:
                 pass
             else:
