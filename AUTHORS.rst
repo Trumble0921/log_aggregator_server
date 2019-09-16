@@ -5,7 +5,7 @@ Credits
 Development Lead
 ----------------
 
-* SimJoonYeol <joonyeolsim@gmail.com>
+* Trumble0921 <joonyeolsim@gmail.com>
 
 Contributors
 ------------

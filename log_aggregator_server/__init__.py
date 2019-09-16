@@ -2,6 +2,6 @@
 
 """Top-level package for Log Aggregator Server."""
 
-__author__ = """SimJoonYeol"""
+__author__ = """Trumble0921"""
 __email__ = 'joonyeolsim@gmail.com'
 __version__ = '0.1.5'

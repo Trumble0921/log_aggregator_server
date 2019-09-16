@@ -6,8 +6,8 @@ Log Aggregator Server
 .. image:: https://img.shields.io/pypi/v/log_aggregator_server.svg
         :target: https://pypi.python.org/pypi/log_aggregator_server
 
-.. image:: https://img.shields.io/travis/simjoonyeol/log_aggregator_server.svg
-        :target: https://travis-ci.org/simjoonyeol/log_aggregator_server
+.. image:: https://img.shields.io/travis/Trumble0921/log_aggregator_server.svg
+        :target: https://travis-ci.org/Trumble0921/log_aggregator_server
 
 .. image:: https://readthedocs.org/projects/log-aggregator-server/badge/?version=latest
         :target: https://log-aggregator-server.readthedocs.io/en/latest/?badge=latest

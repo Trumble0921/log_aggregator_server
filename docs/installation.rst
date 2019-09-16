@@ -32,13 +32,13 @@ You can either clone the public repository:
 
 .. code-block:: console
 
-    $ git clone git://github.com/simjoonyeol/log_aggregator_server
+    $ git clone git://github.com/Trumble0921/log_aggregator_server
 
 Or download the `tarball`_:
 
 .. code-block:: console
 
-    $ curl  -OL https://github.com/simjoonyeol/log_aggregator_server/tarball/master
+    $ curl  -OL https://github.com/Trumble0921/log_aggregator_server/tarball/master
 
 Once you have a copy of the source, you can install it with:
 
@@ -47,5 +47,5 @@ Once you have a copy of the source, you can install it with:
     $ python setup.py install
 
 
-.. _Github repo: https://github.com/simjoonyeol/log_aggregator_server
-.. _tarball: https://github.com/simjoonyeol/log_aggregator_server/tarball/master
+.. _Github repo: https://github.com/Trumble0921/log_aggregator_server
+.. _tarball: https://github.com/Trumble0921/log_aggregator_server/tarball/master

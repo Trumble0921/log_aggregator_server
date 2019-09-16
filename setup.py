@@ -18,7 +18,7 @@ setup_requirements = ['pytest-runner', ]
 test_requirements = ['pytest', ]
 
 setup(
-    author="SimJoonYeol",
+    author="Trumble0921",
     author_email='joonyeolsim@gmail.com',
     classifiers=[
         'Development Status :: 2 - Pre-Alpha',
@@ -45,7 +45,7 @@ setup(
     setup_requires=setup_requirements,
     test_suite='tests',
     tests_require=test_requirements,
-    url='https://github.com/simjoonyeol/log_aggregator_server',
+    url='https://github.com/Trumble0921/log_aggregator_server',
     version='0.1.5',
     zip_safe=False,
 )

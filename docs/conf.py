@@ -48,8 +48,8 @@ master_doc = 'index'
 
 # General information about the project.
 project = u'Log Aggregator Server'
-copyright = u"2019, SimJoonYeol"
-author = u"SimJoonYeol"
+copyright = u"2019, Trumble0921"
+author = u"Trumble0921"
 
 # The version info for the project you're documenting, acts as replacement
 # for |version| and |release|, also used in various other places throughout
@@ -130,7 +130,7 @@ latex_elements = {
 latex_documents = [
     (master_doc, 'log_aggregator_server.tex',
      u'Log Aggregator Server Documentation',
-     u'SimJoonYeol', 'manual'),
+     u'Trumble0921', 'manual'),
 ]
 
 
