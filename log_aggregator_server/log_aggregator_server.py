@@ -7,7 +7,7 @@ import shutil
 
 from .process import process_log
 from .system import system_log
-from .user_log import sys_log, ros_log
+from .user_log import user_log_collector
 
 
 def log_aggregator():
@@ -20,18 +20,15 @@ def log_aggregator():
 
     process_thread = threading.Thread(target=process_log, args=(log_folder, ))
     system_thread = threading.Thread(target=system_log, args=(log_folder, ))
-    ros_log_thread = threading.Thread(target=sys_log, args=(log_folder, ))
-    sys_log_thread = threading.Thread(target=ros_log, args=(log_folder, ))
+    user_log_collector_thread = threading.Thread(target=user_log_collector, args=(log_folder, ))
 
     process_thread.start()
     system_thread.start()
-    ros_log_thread.start()
-    sys_log_thread.start()
+    user_log_collector_thread.start()
 
     process_thread.join()
     system_thread.join()
-    ros_log_thread.join()
-    sys_log_thread.join()
+    user_log_collector_thread.join()
 
     # tar_ball
     os.chdir(home_path)
