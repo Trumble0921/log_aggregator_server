@@ -5,7 +5,7 @@ History
 0.1.8 (2019-09-17)
 ------------------
 
-* Add console output aggregator
+* Add console output aggregator.
 
 0.1.7 (2019-09-06)
 ------------------

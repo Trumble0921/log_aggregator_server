@@ -4,6 +4,7 @@ import os
 import threading
 import tarfile
 import shutil
+import getpass
 
 from .process import process_log
 from .system import system_log
@@ -12,9 +13,10 @@ from .user_log import user_log_collector
 
 def log_aggregator():
 
+    robot_uuid = getpass.getuser() + '@' + os.uname()[1]
     home_path = os.environ['HOME']
 
-    working_folder = datetime.now().strftime("%Y%m%d%H%M%S")
+    working_folder = robot_uuid + '_' + datetime.now().strftime("%Y%m%d%H%M%S")
     log_folder = os.path.join(home_path, working_folder)
     os.makedirs(log_folder)
 
