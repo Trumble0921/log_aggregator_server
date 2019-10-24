@@ -11,12 +11,16 @@ from .system import system_log
 from .user_log import user_log_collector
 
 
-def log_aggregator():
+def log_aggregator(filename):
 
     robot_uuid = getpass.getuser() + '@' + os.uname()[1]
     home_path = os.environ['HOME']
 
-    working_folder = robot_uuid + '_' + datetime.now().strftime("%Y%m%d%H%M%S")
+    if filename:
+        working_folder = filename
+    else:
+        working_folder = robot_uuid + '_' + datetime.now().strftime("%Y%m%d%H%M%S")
+
     log_folder = os.path.join(home_path, working_folder)
     os.makedirs(log_folder)
 
